@@ -34,8 +34,6 @@ def getReps(city):
             title = "Representative"
         elif ("senate" in url):
             title = "Senator"
-        else:
-            title = ""
 
         alexa_string += party + " " + title + " " + name + " " + phone + " "
 
